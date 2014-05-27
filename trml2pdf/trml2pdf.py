@@ -154,6 +154,12 @@ class _rml_doc(object):
         from reportlab.lib.fonts import addMapping
         from reportlab.pdfbase import pdfmetrics
         from reportlab.pdfbase.ttfonts import TTFont
+        from os import listdir
+        from constants import fonts_location
+
+        for font in listdir(fonts_location):
+            if font.endswith(".ttf"):
+                pdfmetrics.registerFont(TTFont(font[:-4], fonts_location + font))
 
         for node in els:
             for font in node.getElementsByTagName('registerFont'):
