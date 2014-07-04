@@ -3,9 +3,10 @@ Installing Tiny RML2PDF
 Dependencies:
 	- Reportlab PDF-Toolkit current version
 	- Python-Imaging (PIL) if you use bitmap pictures
+        - Django
 
-To install Tiny RML2PDF, copy the directory trml2pdf where you want!
+Install via PIP
+        - pip install git+https://github.com/johann2357/trml2pdf.git
 
 That's all folks :)
 
-This Software is only tested with Linux and Python-2.2

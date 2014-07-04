@@ -10,12 +10,12 @@ Examples
 
 Create a PDF file:
 
-trml2pdf <input.rml
-
 Use it as a python module:
 ```python
 	import trml2pdf
 	print trml2pdf.parseString(file('file.rml','r').read())
 ```
  
-If you are using this for Django you can simply mark up an .rml file with the template system and then render it.
+This version 1.1 is only for Django, you can simply mark up an .rml file with the template system and then render it.
+
+You have to define a variable called FONTS_DIR in your settings.py, pointing to the fonts location in your project ... and thats it!
