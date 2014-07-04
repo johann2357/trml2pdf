@@ -4,7 +4,7 @@ from distutils.core import setup
 
 setup(
     name='trml2pdf',
-    version='1.0',
+    version='1.1',
     description='RML TO PDF',
     author='romanlv',
     url='https://github.com/johann2357/trml2pdf',
