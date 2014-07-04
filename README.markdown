@@ -1,4 +1,4 @@
-Open source implemenaton of RML (Report Markup Language) from ReportLab
+Open source implemenaton of RML (Report Markup Language) from ReportLab for Django
 
 [RML User Guide](http://www.reportlab.com/docs/rml2pdf-userguide.pdf)  (or [beginner tutorial](http://www.reportlab.com/docs/rml-for-idiots.pdf))
 
